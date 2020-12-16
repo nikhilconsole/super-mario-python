@@ -108,10 +108,10 @@ python installed, if they don't need python bindings.
           </execution>
         </executions>
       </plugin>
-      <plugin>
+<!-- <plugin>
         <!-- Make sure destination directories for protoc output
         exist. -->
-        <groupId>org.apache.maven.plugins</groupId>
+        <!-- <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-antrun-plugin</artifactId>
         <version>1.7</version>
         <executions>
@@ -128,7 +128,7 @@ python installed, if they don't need python bindings.
             </configuration>
           </execution>
         </executions>
-      </plugin>
+      </plugin> -->
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
