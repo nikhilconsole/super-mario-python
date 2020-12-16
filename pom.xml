@@ -109,9 +109,7 @@ python installed, if they don't need python bindings.
         </executions>
       </plugin>
 <!-- <plugin>
-        <!-- Make sure destination directories for protoc output
-        exist. -->
-        <!-- <groupId>org.apache.maven.plugins</groupId>
+         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-antrun-plugin</artifactId>
         <version>1.7</version>
         <executions>
